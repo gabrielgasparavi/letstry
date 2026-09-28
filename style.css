@@ -1,0 +1,52 @@
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        main {
+            max-width: 500px;
+            margin: 100px auto;
+            padding: 30px;
+            text-align: center;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Mano mini projektas</h1>
+
+        <button id="myButton">Paspausk mane</button>
+
+        <p id="message">Čia bus pranešimas.</p>
+    </main>
